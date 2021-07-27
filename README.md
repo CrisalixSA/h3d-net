@@ -5,7 +5,7 @@ This is the repository that contains source code for the [H3D-Net website](https
 If you find H3D-Net useful for your work please cite:
 ```
 @article{ramon2021h3dnet
-  author    = {Ramon, Eduard and Triginer, Gil and Escure, Janna and Pumarola, Albert and Garcia, Jaime and Giro-i-Nieto, Xavier and Moreno-Noguer, Francesc},
+  author    = {Ramon, Eduard and Triginer, Gil and Escur, Janna and Pumarola, Albert and Garcia, Jaime and Giro-i-Nieto, Xavier and Moreno-Noguer, Francesc},
   title     = {H3D-Net: Few-Shot High-Fidelity 3D Head Reconstruction},
   journal   = {arXiv preprint arXiv:3856181},
   year      = {2021},

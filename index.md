@@ -16,13 +16,15 @@ H3D-Net is a neural architecture that reconstructs high-quality 3D human heads f
 
 ### Releted work
 
-The following are key related articles
+* [DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation (2019)](https://arxiv.org/abs/1901.05103)
+* [Implicit Geometric Regularization for Learning Shapes (2020)](https://arxiv.org/abs/2002.10099)
+* [Multiview Neural Surface Reconstruction with Implicit Lighting and Material (2020)](https://arxiv.org/abs/2003.09852)
 
 ### BibTEX
 
 ```
 @article{ramon2021h3dnet
-  author    = {Ramon, Eduard and Triginer, Gil and Escure, Janna and Pumarola, Albert and Garcia, Jaime and Giro-i-Nieto, Xavier and Moreno-Noguer, Francesc},
+  author    = {Ramon, Eduard and Triginer, Gil and Escur, Janna and Pumarola, Albert and Garcia, Jaime and Giro-i-Nieto, Xavier and Moreno-Noguer, Francesc},
   title     = {H3D-Net: Few-Shot High-Fidelity 3D Head Reconstruction},
   journal   = {arXiv preprint arXiv:3856181},
   year      = {2021},
