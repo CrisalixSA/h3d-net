@@ -23,7 +23,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
@@ -49,7 +49,7 @@ body {
 
 a {
   color: $body-link-color;
-  text-decoration: none;
+  text-decoration: underline;
 
   &:hover {
     text-decoration: underline;
@@ -121,14 +121,15 @@ a {
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.1;
 
   @include large {
-    font-size: 3.25rem;
+    font-size: 2.25rem;
   }
 
   @include medium {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 
   @include small {
@@ -190,7 +191,7 @@ a {
   h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: normal;
+    font-weight: 500;
     color: $section-headings-color;
   }
 
