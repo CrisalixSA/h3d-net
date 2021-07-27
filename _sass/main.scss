@@ -29,24 +29,6 @@ body {
   color: $body-text-color;
 }
 
-#skip-to-content {
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  overflow: hidden;
-  top: -10px;
-
-  &:focus {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    height: auto;
-    width: auto;
-    background: invert($body-link-color);
-    outline: thick solid invert($body-link-color);
-  }
-}
-
 a {
   color: $body-link-color;
   text-decoration: underline;
@@ -160,30 +142,6 @@ a {
   }
 }
 
-.project-tagline {
-  margin-bottom: 2rem;
-  font-weight: normal;
-  opacity: 0.7;
-
-  @include large {
-    font-size: 1.25rem;
-  }
-
-  @include medium {
-    font-size: 1.15rem;
-  }
-
-  @include small {
-    font-size: 1rem;
-  }
-}
-
-.autors__name{
-  display: inline-block;
-  margin-bottom: 0;
-  font-size: 18px;
-}
-
 .main-content {
   word-wrap: break-word;
 
@@ -252,6 +210,10 @@ a {
     }
   }
 
+  pre {
+    background: #f5f5f5;
+  }
+
   dl {
     padding: 0;
 
@@ -293,9 +255,4 @@ a {
   @include small {
     font-size: 0.9rem;
   }
-}
-
-.site-footer-owner {
-  display: block;
-  font-weight: bold;
 }
