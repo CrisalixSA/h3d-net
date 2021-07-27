@@ -16,13 +16,25 @@ H3D-Net is a neural architecture that reconstructs high-quality 3D human heads f
 
 ### Results
 
-3D Head Reconstruction results with only 3 input images. In this examples, camera poses are regressed with and the masks are annotated estimated with U2Net and manually refined.
+3D Head Reconstruction results with only 3 input images. In this examples, camera poses have been regressed using a pre-trained MRL model, which minimize the reprojection error. The masks have been estimated with U2Net and manually refined.
+
+<p float="left">
+  <img src="assets/images/3-views-1.gif" width="400" />
+  <img src="assets/images/3-views-2.gif" width="400" />
+</p>
+
+Qualitative comparison with respect to IDR varying the number of views. Our method effectively finds realistic and detailed solutions in both  few-shot and many-shot scenarios.
+
+<p align="center">
+  <img src="assets/images/h3dnet-idr.gif" />
+</p>
+
 
 ### Releted work
 
-* [DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation (2019)](https://arxiv.org/abs/1901.05103)
-* [Implicit Geometric Regularization for Learning Shapes (2020)](https://arxiv.org/abs/2002.10099)
-* [Multiview Neural Surface Reconstruction with Implicit Lighting and Material (2020)](https://arxiv.org/abs/2003.09852)
+1. [DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation (2019)](https://arxiv.org/abs/1901.05103)
+2. [Implicit Geometric Regularization for Learning Shapes (2020)](https://arxiv.org/abs/2002.10099)
+3. [Multiview Neural Surface Reconstruction with Implicit Lighting and Material (2020)](https://arxiv.org/abs/2003.09852)
 
 ### BibTEX
 
