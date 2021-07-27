@@ -37,7 +37,7 @@ We also provide a qualitative and quantitative comparison with respect to IDR va
 2. [Implicit Geometric Regularization for Learning Shapes (2020)](https://arxiv.org/abs/2002.10099)
 3. [Multiview Neural Surface Reconstruction with Implicit Lighting and Material (2020)](https://arxiv.org/abs/2003.09852)
 
-## BibTEX
+## BibTeX
 
 ```
 @article{ramon2021h3dnet

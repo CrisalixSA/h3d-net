@@ -123,7 +123,12 @@ a {
     padding: 2rem 1rem;
   }
 
-  .autors__name{
+  .authors__name{
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .affiliation__name{
     display: inline-block;
     margin-bottom: 0;
   }
