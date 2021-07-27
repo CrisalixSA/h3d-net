@@ -150,10 +150,6 @@ a {
 .main-content {
   word-wrap: break-word;
 
-  :first-child {
-    margin-top: 0;
-  }
-
   @include large {
     max-width: 64rem;
     padding: 2rem 6rem;
@@ -175,12 +171,7 @@ a {
     max-width: 100%;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: 500;
@@ -192,8 +183,7 @@ a {
     padding: 1em;
   }
 
-  ul,
-  ol {
+  ul, ol {
     margin-top: 0;
   }
 
