@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ![](assets/images/teaser.png)
 
 ## Abstract
@@ -30,4 +34,3 @@ H3D-Net is a neural architecture that reconstructs high-quality 3D human heads f
   year      = {2021},
 }
 ```
-
