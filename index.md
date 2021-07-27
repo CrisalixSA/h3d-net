@@ -20,9 +20,9 @@ The proposed method performs well in both few-shot and many-shot scenarios, outp
 
 Next, we show full head 3D reconstructions with only 3 input images. In these examples, the camera poses have been regressed using a pre-trained [MRL model](https://openaccess.thecvf.com/content_ICCVW_2019/papers/GMDL/Ramon_Hyperparameter-Free_Losses_for_Model-Based_Monocular_Reconstruction_ICCVW_2019_paper.pdf), which minimizes the reprojection error. The masks have been estimated with [U2Net](https://arxiv.org/pdf/2005.09007.pdf) and manually refined.
 
-<p float="left">
-  <img src="assets/images/3-views-1.gif" width="400" />
-  <img src="assets/images/3-views-2.gif" width="400" />
+<p float="center">
+  <img src="assets/images/3-views-1.gif" width="350" />
+  <img src="assets/images/3-views-2.gif" width="350" />
 </p>
 
 We also provide a qualitative and quantitative comparison with respect to IDR varying the number of views. Note how H3D-Net effectively finds realistic and detailed solutions in both few-shot and many-shot scenarios.
@@ -30,7 +30,6 @@ We also provide a qualitative and quantitative comparison with respect to IDR va
 <p align="center">
   <img src="assets/images/h3dnet-idr.gif" />
 </p>
-
 
 ### Releted work
 
