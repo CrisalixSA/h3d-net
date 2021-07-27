@@ -12,8 +12,14 @@
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title }}</h1>
-      <a href="{{ site.paper_url }}" class="btn">Paper</a>
-      <a href="{{ site.dataset_url }}" class="btn">H3DS dataset</a>
+      <div class="btn-group-flex">
+        <a href="{{ site.paper_url }}" class="btn"><img src="assets/images/paper.svg" class="icon-paper"/>Paper</a>
+        <a href="{{ site.dataset_url }}" class="btn"><img src="assets/images/code.svg" class="icon-code"/>H3DS dataset</a>
+      </div>
+      <div class="authors">
+        <p class="autors__name">Eduard Ramon</p>,
+        <p class="autors__name">Gil Triginer</p>
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
