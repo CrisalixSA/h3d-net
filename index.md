@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ![](assets/images/teaser.png)
 
 ## Abstract
@@ -44,4 +48,3 @@ We also provide a qualitative and quantitative comparison with respect to IDR va
   year      = {2021},
 }
 ```
-
