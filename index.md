@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ![](assets/images/teaser.png)
 
 ## Abstract
@@ -42,4 +46,3 @@ Qualitative comparison with respect to IDR varying the number of views. Our meth
   year      = {2021},
 }
 ```
-

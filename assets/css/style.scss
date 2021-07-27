@@ -1,6 +1,9 @@
+---
+---
+
+$header-bg-color: #137191 !default;
+$header-bg-color-secondary: #40a1c7 !default;
+$section-headings-color: #000A0E !default;
+$body-link-color: #40a1c7 !default;
+
 @import "{{ site.theme }}";
-.main-content {
-  h1 {
-   color: #000000;
- }
-}
