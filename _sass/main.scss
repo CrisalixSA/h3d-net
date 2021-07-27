@@ -122,6 +122,11 @@ a {
   @include small {
     padding: 2rem 1rem;
   }
+
+  .autors__name{
+    display: inline-block;
+    margin-bottom: 0;
+  }
 }
 
 .project-name {
@@ -140,11 +145,6 @@ a {
   @include small {
     font-size: 1.75rem;
   }
-}
-
-.autors__name{
-  display: inline-block;
-  margin-bottom: 0;
 }
 
 .main-content {
@@ -189,6 +189,7 @@ a {
 
   p {
     margin-bottom: 1em;
+    padding: 1em;
   }
 
   ul,
