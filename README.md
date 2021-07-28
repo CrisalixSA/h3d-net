@@ -13,13 +13,17 @@ If you find H3D-Net useful for your work please cite:
 }
 ```
 
-## Setup
+## Development
+
+This site is built with [Jekyll](https://jekyllrb.com), so you need to install Ruby first to run it in your machine.
+
+### Setup
 
 ```
 bin/setup
 ```
 
-## Run
+### Run
 
 ```
 bin/start
