@@ -40,10 +40,12 @@ We also provide a qualitative and quantitative comparison with respect to [IDR](
 ## BibTeX
 
 ```
-@article{ramon2021h3dnet
-  author    = {Ramon, Eduard and Triginer, Gil and Escur, Janna and Pumarola, Albert and Garcia, Jaime and Giro-i-Nieto, Xavier and Moreno-Noguer, Francesc},
-  title     = {H3D-Net: Few-Shot High-Fidelity 3D Head Reconstruction},
-  journal   = {arXiv preprint arXiv:2107.12512},
-  year      = {2021},
+@inproceedings{ramon2021h3d,
+  title={H3D-Net: Few-Shot High-Fidelity 3D Head Reconstruction},
+  author={Ramon, Eduard and Triginer, Gil and Escur, Janna and Pumarola, Albert and Garcia, Jaime and Giro-i-Nieto, Xavier and Moreno-Noguer, Francesc},
+  journal={arXiv preprint arXiv:2107.12512},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={5620--5629},
+  year={2021}
 }
 ```
